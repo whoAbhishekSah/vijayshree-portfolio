@@ -1,6 +1,6 @@
 import { getBlogPosts } from 'app/blog/utils'
 
-export const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://vijayshreepukale.com'
+export const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.vijayshreepukale.com'
 
 export default async function sitemap() {
   let blogs = getBlogPosts().map((post) => ({
