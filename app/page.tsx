@@ -7,7 +7,7 @@ export default function Page() {
         Vijayshree Pukale
       </h1>
       <p className="mb-4">
-        Hi, I am Vijayshree. I work in sales development at{' '}
+        Hi, I am Vijayshree, I work in sales development at{' '}
         <a href="https://stripe.com" target="_blank" rel="noopener noreferrer" className={linkClass}>Stripe</a>,
         where I qualify inbound leads, run discovery calls, and help move deals forward for SaaS and fintech companies.
       </p>
