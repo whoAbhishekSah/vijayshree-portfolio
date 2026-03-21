@@ -1,0 +1,40 @@
+---
+title: 'What I Learned Reading Stripe API Docs'
+publishedAt: '2026-03-10'
+summary: 'Stripe has some of the best API documentation in the industry. Here is what studying it taught me about developer products and technical sales.'
+---
+
+Stripe's API documentation is often cited as the gold standard. As someone in sales ops learning about APIs, I decided to study it — not to build anything, but to understand what makes a developer product compelling.
+
+## The Structure
+
+Stripe's docs are organized around **resources** — Customers, Charges, Subscriptions, Payment Intents. Each resource has a clear explanation of what it does, followed by the API endpoints you can use to interact with it.
+
+What struck me is how each endpoint shows:
+- The HTTP method (POST, GET, etc.)
+- The URL path
+- Required and optional parameters
+- Example request and response in JSON
+
+This structure makes it easy for developers to find exactly what they need. And for me in sales ops, it helped me understand what questions to ask prospects.
+
+## Key Concepts I Picked Up
+
+### Idempotency Keys
+Stripe lets you send an `Idempotency-Key` header so that if a request fails and you retry it, you won't accidentally charge a customer twice. When a lead mentions needing idempotent operations, I now understand why — they're dealing with payment flows where duplicate actions could cost real money.
+
+### Webhooks
+Instead of constantly checking "did this payment complete?", Stripe sends events to your server when things happen. Understanding webhooks helped me grasp why prospects ask about event delivery guarantees and retry logic.
+
+### API Versioning
+Stripe versions its API so that changes don't break existing integrations. This taught me that when prospects ask about API stability, they're protecting the investment they've made in building their integration.
+
+## Why This Matters for Sales
+
+Every concept I learned translates directly to better lead qualification:
+
+- A prospect asking about idempotency likely processes high-value transactions
+- Webhook requirements suggest they're building real-time workflows
+- Questions about API versioning mean they're planning a long-term integration
+
+Understanding the technical layer doesn't replace sales instinct — it sharpens it.

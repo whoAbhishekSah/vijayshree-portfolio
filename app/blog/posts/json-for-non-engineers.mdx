@@ -1,0 +1,68 @@
+---
+title: 'JSON for Non-Engineers: A Practical Guide'
+publishedAt: '2026-03-01'
+summary: 'A straightforward introduction to JSON — what it is, how to read it, and why it matters if you work with technical products.'
+---
+
+JSON stands for JavaScript Object Notation. If you work in sales, product, or operations for a technical company, you'll encounter it constantly. Here's what you need to know.
+
+## What JSON Looks Like
+
+```json
+{
+  "customer": {
+    "name": "Acme Corp",
+    "email": "billing@acme.com",
+    "plan": "enterprise",
+    "monthly_spend": 15000,
+    "active": true
+  }
+}
+```
+
+That's it. It's just a way of organizing data using curly braces `{}`, square brackets `[]`, keys, and values.
+
+## The Building Blocks
+
+**Objects** use curly braces and contain key-value pairs:
+```json
+{ "name": "Vijayshree", "role": "Sales Ops" }
+```
+
+**Arrays** use square brackets and contain lists:
+```json
+{ "skills": ["CRM management", "lead qualification", "API basics"] }
+```
+
+**Values** can be strings, numbers, booleans (true/false), null, objects, or arrays.
+
+## Reading API Responses
+
+When a sales tool or API returns data, it usually comes back as JSON. For example, when you look up a lead in an API:
+
+```json
+{
+  "id": "lead_12345",
+  "company": "TechStartup Inc",
+  "status": "qualified",
+  "score": 85,
+  "tags": ["api-interested", "enterprise", "payments"],
+  "contact": {
+    "name": "Jane Smith",
+    "title": "CTO",
+    "email": "jane@techstartup.com"
+  }
+}
+```
+
+You can read this naturally: the lead is from TechStartup Inc, they're qualified with a score of 85, they're interested in APIs and payments, and the contact is Jane Smith, their CTO.
+
+## Why This Matters
+
+If you can read JSON, you can:
+- Understand API documentation without needing an engineer to translate
+- Debug issues in your sales tools by reading error responses
+- Have more meaningful conversations about data and integrations
+- Set up and troubleshoot webhook payloads
+
+You don't need to write code. You just need to be comfortable reading structured data. That alone puts you ahead of most people in non-engineering roles.
