@@ -21,20 +21,20 @@ export default function Page() {
         <h2 className="font-semibold text-xl mb-4 tracking-tighter">Impact</h2>
         <div className="grid grid-cols-2 gap-4 mb-6">
           <div className="p-4 rounded-lg border border-neutral-200 dark:border-neutral-800">
-            <p className="text-2xl font-semibold tracking-tight">$70M+</p>
-            <p className="text-sm text-neutral-600 dark:text-neutral-400">in projected payment processing volume at Stripe</p>
+            <p className="text-2xl font-semibold tracking-tight">$7M+</p>
+            <p className="text-sm text-neutral-600 dark:text-neutral-400">in projected payment volume influenced through inbound lead qualification at Stripe</p>
           </div>
           <div className="p-4 rounded-lg border border-neutral-200 dark:border-neutral-800">
             <p className="text-2xl font-semibold tracking-tight">24%</p>
-            <p className="text-sm text-neutral-600 dark:text-neutral-400">above revenue target at Nasscom in FY22-23</p>
+            <p className="text-sm text-neutral-600 dark:text-neutral-400">above annual revenue target at Nasscom (₹1.5Cr quota)</p>
           </div>
           <div className="p-4 rounded-lg border border-neutral-200 dark:border-neutral-800">
-            <p className="text-2xl font-semibold tracking-tight">94%+</p>
-            <p className="text-sm text-neutral-600 dark:text-neutral-400">quality score on discovery calls</p>
+            <p className="text-2xl font-semibold tracking-tight">170+</p>
+            <p className="text-sm text-neutral-600 dark:text-neutral-400">inbound leads qualified across SaaS and digital-native businesses</p>
           </div>
           <div className="p-4 rounded-lg border border-neutral-200 dark:border-neutral-800">
             <p className="text-2xl font-semibold tracking-tight">88%</p>
-            <p className="text-sm text-neutral-600 dark:text-neutral-400">renewal rate across 130-150 accounts</p>
+            <p className="text-sm text-neutral-600 dark:text-neutral-400">renewal rate across 130–150 managed accounts</p>
           </div>
         </div>
       </div>
@@ -110,6 +110,17 @@ export default function Page() {
         </div>
       </div>
 
+      <div className="mb-6">
+          <div className="flex justify-between items-baseline">
+            <h3 className="font-medium"><a href="https://Nasscom.in" target="_blank" rel="noopener noreferrer" className={linkClass}>Nasscom</a></h3>
+            <p className="text-sm text-neutral-600 dark:text-neutral-400">Feb 2021 – Jul 2023</p>
+          </div>
+          <p className="text-sm text-neutral-600 dark:text-neutral-400 mb-2">Senior Executive, Business Development</p>
+          <ul className="list-disc pl-6 space-y-1 text-sm text-neutral-800 dark:text-neutral-200">
+            <li>Exceeded annual revenue target by 24% on a ₹1.5Cr quota through consultative selling and account expansion</li>
+            <li>Managed 130+ SME and enterprise accounts, driving 88% renewal through stakeholder engagement and retention strategies</li>
+          </ul>
+        </div>
       <hr className="my-8 border-neutral-200 dark:border-neutral-800" />
       <div className="flex items-center gap-3 mb-6">
         <div className="w-2 h-2 rounded-full bg-emerald-500 flex-shrink-0" />
