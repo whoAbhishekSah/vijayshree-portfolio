@@ -60,10 +60,10 @@ export default function Page() {
         At work
       </p>
       <h2 className="font-serif text-2xl text-neutral-900 dark:text-neutral-100 mb-2">
-        Stripe Delivery Center, Bangalore
+        Stripe, Bangalore
       </h2>
       <p className="text-sm leading-relaxed text-neutral-600 dark:text-neutral-400 mb-4">
-        Running inbound qualification and partnering with SDRs and AEs across APAC and EMEA.
+        Running inbound qualification and partnering with AEs across India.
       </p>
       <div className="grid grid-cols-2 gap-3 mt-4">
         {[
@@ -83,7 +83,7 @@ export default function Page() {
       <div className="mt-6 border border-neutral-200 dark:border-neutral-800 rounded-lg px-5 py-4 flex items-center gap-3">
         <div className="w-2 h-2 rounded-full bg-emerald-500 flex-shrink-0" />
         <p className="text-sm text-neutral-600 dark:text-neutral-400">
-          <span className="font-medium text-neutral-900 dark:text-neutral-100">Open to opportunities</span> — BDR and AE roles at AI/tech companies where technical curiosity and sales fundamentals both matter.
+          <span className="font-medium text-neutral-900 dark:text-neutral-100">Open to opportunities</span> — SDR and AE roles at AI/Tech companies where technical curiosity and sales fundamentals both matter.
         </p>
       </div>
     </section>
